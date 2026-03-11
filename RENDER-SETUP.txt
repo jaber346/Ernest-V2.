@@ -1,0 +1,20 @@
+RENDER CONFIGURATION
+
+1. Sur Render, crée un service de type WEB SERVICE.
+2. Ne choisis pas STATIC SITE.
+3. Build Command : npm install
+4. Start Command : npm start
+5. Health Check Path : /health
+
+Variables utiles :
+- PREFIX=.
+- BOT_NAME=NOVA XMD V1
+- OWNER_NAME=DEV NOVA
+- OWNER_NUMBER=226xxxxxxxx
+- PAIRING_ENABLED=true
+- PAIRING_NUMBER=226xxxxxxxx
+- PUBLIC_MODE=true
+
+Important :
+Si tu déploies en STATIC SITE, Render va chercher un dossier build/publish directory.
+Ce projet est un bot Node.js + Express, donc il faut absolument WEB SERVICE.

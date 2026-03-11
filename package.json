@@ -1,0 +1,29 @@
+{
+  "name": "nova-xmd-v1-complete-bot",
+  "version": "1.0.1",
+  "description": "Bot WhatsApp complet NOVA XMD V1 avec plus de 70 commandes.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "render-build": "npm install"
+  },
+  "keywords": [
+    "whatsapp-bot",
+    "baileys",
+    "nova-xmd-v1",
+    "nodejs"
+  ],
+  "author": "DEV NOVA",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "latest",
+    "express": "^4.21.2",
+    "pino": "^9.6.0"
+  }
+}
